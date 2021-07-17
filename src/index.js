@@ -4,13 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const title = React.createElement('h1',null,'JSX Test');
-const text = React.createElement('p',null,'Paragraph Text~');
-const container = React.createElement('p',null,[title, text]);
+// const title = React.createElement('h1',null,'JSX Test');
+// const text = React.createElement('p',null,'Paragraph Text~');
+// const container = React.createElement('p',null,[title, text]);
 
 ReactDOM.render(
-  container,
-  document.getElementById('root')
+    <div>
+        <h1>JSX Test</h1>
+        <p>Paragraph Text~</p>
+    </div>,
+  document.getElementById('root ')
 );
 
 // If you want to start measuring performance in your app, pass a function
