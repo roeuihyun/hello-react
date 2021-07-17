@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <div>
-        <h1>JSX Test{}</h1>
+        <h1>JSX Test</h1>
         <p>Paragraph Text~</p>
     </div>,
     document.getElementById('root ')
